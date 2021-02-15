@@ -1,17 +1,27 @@
 /* USE CSS LAYOUTS HERE */
 
 .header {
-
+  background-color: red;
+  height: 40px;
 }
 
 .main {
-
+  background-color: white;
+  display: flex;
 }
-
 .footer-grid {
-
+  background-color: green;
+  display: grid;
+  position: sticky;
+  bottom: 0px;
 }
 
 .footer-flex {
-
+  background-color: green;
+  display: flex;
+  position: sticky;
+  bottom: 0px;
+}
+.wrapper {
+  width: 1000px;
 }
